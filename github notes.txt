@@ -1,0 +1,73 @@
+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
+
+GIT COMMANDS
+1. git --version
+
+---git configure---
+2. git config --global user.name "harihnhn"
+3. git config --global user.email "hari2005999@gmail.com"
+===================================================================
+4. git init 
+   to initialize git
+===================================================================
+5. git status
+   to know status of our repository files
+===================================================================
+6. git add index.html
+   add file to the Staging Environment
+===================================================================
+7. git add --all or git add -A
+   Using --all instead of individual filenames will stage all changes (new, modified, and deleted) files.
+===================================================================
+8. git commit -m "First release of Hello World!"
+===================================================================
+9. git status --short
+   Short status flags are:
+   ?? - Untracked files
+   A - Files added to stage
+   M - Modified files
+   D - Deleted files
+
+10. git commit -a -m "Updated index.html with a new line"
+    to commit without file adding
+
+11. git log
+    To view the history of commits for a repository
+
+----git help----
+12. git command -help
+    See all the available options for the specific command
+13. git help --all
+    See all possible commands
+    SHIFT + G - to jump the end of the list,
+    q - to exit the view.
+
+14. git branch hello-world-images
+    to create new git branch
+
+15. git branch
+    to view list of branches and, it also shows our current working branch
+
+16. git checkout hello-world-images
+    to switch another branch
+
+17. git checkout -b mybranchname
+    Now we have created a new branch from master, and changed to it.
+
+18. git branch -d branch name
+    to delete branch
+===================================================================
+19. git remote add origin https://github.com/w3schools-test/hello-world.git
+    git remote add origin URL specifies that you are adding a remote repository, with the specified URL, as an origin to your local Git repo.
+===================================================================
+20. git remote 
+    this will make your Git list all existing remotes for the current repository.
+
+21. git remote -v
+    this will return not only the names of each remote but also its URLs
+
+22. git remote remove origin
+    to remove the existing remote
+===================================================================
+ 20. git push --set-upstream origin master
+===================================================================
