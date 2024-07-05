@@ -1,5 +1,3 @@
-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
-
 GIT COMMANDS
 1. git --version
 
